@@ -2,7 +2,7 @@
 // in python
 class Solution:
     def maximumWealth(self, accounts: List[List[int]]) -> int:
-        richest = 0
+        richest = 0 // py me aisa koi method nahi hai Min value set karne ka
         for i in range(len(accounts)):
             if richest < sum(accounts[i]):
                 richest = sum(accounts[i])
