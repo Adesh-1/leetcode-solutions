@@ -41,4 +41,4 @@ class Solution {
 }
 '''
 # for more info in java convention on int --> String follow below link
-# https://chatgpt.com/share/68ab27d7-44b4-8001-9540-7b9b70100373
+# https://chatgpt.com/c/68ab276d-d9a8-8332-96a0-005d29c61ba2
