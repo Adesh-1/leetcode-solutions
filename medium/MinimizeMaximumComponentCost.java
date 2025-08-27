@@ -1,4 +1,5 @@
 /* 
+Ques 3612
 Minimize Maximum Component Cost
 
 You are given an undirected connected graph with n nodes labeled from 0 to n - 1 and a 2D integer array edges where edges[i] = [ui, vi, wi] denotes an undirected edge between node ui and node vi with weight wi, and an integer k.
