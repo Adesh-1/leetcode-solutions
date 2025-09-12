@@ -3,7 +3,7 @@
 class Solution:
     def largestAltitude(self, gain: List[int]) -> int:
         l,n = [],0
-        l.append(0)
+        l.append(n) # means l.append(0)
         for i in gain:
             n += i
             l.append(n)
