@@ -26,3 +26,22 @@ class Solution:
         l = set([i for i in range(1, len(nums) + 1)])
         d = list(set(l).difference(set(nums)))
         return d
+
+# in java
+class Solution {
+    public List<Integer> findDisappearedNumbers(int[] nums) {
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
+        }
+
+        List<Integer> result = new ArrayList<>();
+        for (int i = 1; i <= nums.length; i++) {
+            if (!set.contains(i)) {
+                result.add(i);
+            }
+        }
+
+        return result;
+    }
+}
