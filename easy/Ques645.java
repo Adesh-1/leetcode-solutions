@@ -38,3 +38,4 @@ class Solution:
             s.add(i)
         missing = sum(range(1, len(nums) + 1)) - sum(s)
         return [dup, missing]
+
