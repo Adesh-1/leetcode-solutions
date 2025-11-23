@@ -25,3 +25,20 @@ class Solution:
 
         # Return total flips required
         return c
+
+# in java
+class Solution {
+    public int minimumFlips(int n) {
+        String b = Integer.toBinaryString(n);
+        int len = b.length();
+        int flips = 0;
+
+        for (int i = 0; i < len / 2; i++) {
+            if (b.charAt(i) != b.charAt(len - 1 - i)) {
+                flips++;
+            }
+        }
+
+        return flips * 2;   #// bcz 2 filps/mismatch
+    }
+}
