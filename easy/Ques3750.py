@@ -9,7 +9,7 @@ class Solution:
         lb = list(b)
 
         # Create a reversed copy of the list (lb[::-1] does NOT modify original)
-        lrb = list(reversed(lb))  # can write lb[::-1]
+        lrb = list(reversed(lb))  # can written as lb[::-1]
  
         # If the binary string is already a palindrome, no flips are needed
         if lb == lrb:
