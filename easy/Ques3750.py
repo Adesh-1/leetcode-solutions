@@ -39,6 +39,6 @@ class Solution {
             }
         }
 
-        return flips * 2;   #// bcz 2 filps/mismatch
+        return flips * 2;   #// becase 2 filps per mismatch
     }
 }
