@@ -15,7 +15,7 @@ class Solution {
         List<Boolean> res = new ArrayList<>();
         int cur = 0;
         for (int bit : nums) {
-            cur = ((cur << 1) + bit) % 5;
+            cur = ((cur * 2) + bit) % 5;
             res.add(cur == 0);
         }
         return res;
