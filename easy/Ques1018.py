@@ -1,5 +1,5 @@
 # 1018. Binary Prefix Divisible By 5
-# in pthon
+# in python
 class Solution:
     def prefixesDivBy5(self, nums: List[int]) -> List[bool]:
         res = []
