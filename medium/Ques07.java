@@ -6,7 +6,7 @@ class Solution:
         x2 = x1[::-1]
         res = int(x2)
         if x < 0:
-            res = -res
+            res = -res 
         if res > 2**31 - 1 or res < -(2**31):
             res = 0
         return res
