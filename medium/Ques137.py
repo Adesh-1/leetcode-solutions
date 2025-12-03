@@ -1,5 +1,5 @@
 # 137. Single Number II
-# in python 
+# in python
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         d = Counter(nums)
