@@ -1,5 +1,5 @@
 # 122. Best Time to Buy and Sell Stock II
-# in python
+# in python 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         profit = 0
