@@ -2,7 +2,7 @@
 # in python
 class Solution:
     def maxProfit(self, prices):
-        buy1 = buy2 = float('-inf')
+        buy1 = buy2 = float('-inf') 
         sell1 = sell2 = 0
 
         for p in prices:
