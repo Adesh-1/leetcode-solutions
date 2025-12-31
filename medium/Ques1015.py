@@ -1,5 +1,5 @@
 # 1015. Smallest Integer Divisible by K
-# in python
+# in python 
 class Solution:
     def smallestRepunitDivByK(self, k: int) -> int:
         if k % 2 == 0 or k % 5 == 0:
