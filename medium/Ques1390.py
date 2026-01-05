@@ -1,5 +1,5 @@
 # 1390. Four Divisors
-# in python
+# in python 
 class Solution:
     def sumFourDivisors(self, nums: List[int]) -> int:
         ans = 0
