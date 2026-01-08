@@ -1,5 +1,5 @@
 // 1025. Divisor Game
-
+ 
       /*
             alice wins if n is even and loses if n is odd.
             if n %2 == 0:
