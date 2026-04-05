@@ -5,6 +5,7 @@ class Solution:
         return moves.count('U') == moves.count('D') and moves.count('L') == moves.count('R')
 
 # in java
+        # 1st method
 class Solution {
     public boolean judgeCircle(String moves) {
         int x = 0, y = 0;
@@ -20,4 +21,16 @@ class Solution {
         }
         return x == 0 && y == 0;
     }
+}
+
+        # 2nd method
+class Solution {
+    public boolean judgeCircle(String moves) {
+        int[] ch = new int[26];
+        for (char move : moves.toCharArray())
+            ch[move - 'A']++;
+        return ch['U' - 'A'] == ch['D' - 'A'] &&
+                ch['L' - 'A'] == ch['R' - 'A'];
+    }
+
 }
