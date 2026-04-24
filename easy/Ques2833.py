@@ -3,7 +3,7 @@
 class Solution:
     def furthestDistanceFromOrigin(self, moves: str) -> int:
         m, n = moves.count('L'), moves.count('R')
-        return moves.count('_') + (max(m, n) - min(m, n))
+        return moves.count('_') + abs(m - n)
 
 # in java
 class Solution {
