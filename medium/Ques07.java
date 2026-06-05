@@ -1,5 +1,5 @@
 // 7. Reverse Integer
-// in python 
+// in python
 class Solution:
     def reverse(self, x: int) -> int:
         x1 = str(abs(x))
