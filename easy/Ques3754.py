@@ -38,3 +38,21 @@ class Solution:
 
         # Return: (sum of digits) * (the formed integer)
         return sum(list_no) * digit
+
+# in java
+class Solution {
+    public long sumAndMultiply(int n) {
+        int digit = 0, i = 1;
+        int sum = 0;
+        while (n != 0) {
+            int rem = n % 10;
+            if (rem != 0) {
+                digit += (rem * i);
+                i *= 10;
+                sum += rem;
+            }
+            n /= 10;
+        }
+        return (long) digit * sum;
+    }
+}
