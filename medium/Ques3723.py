@@ -2,17 +2,12 @@
 # in python
 class Solution:
     def maxSumOfSquares(self, num: int, sum: int) -> str:
-        ans = []
         if sum > 9 * num:
             return ""
-        while sum >= 9:
-            ans.append("9")
-            sum -= 9
-        if sum > 0:
-            ans.append(str(sum))
-        while len(ans) < num:
-            ans.append("0")
-        return "".join(ans)
+
+        nines, rem = divmod(sum, 9)
+        return "9" * nines + (str(rem) if rem else "") + "0" * (num - nines - bool(rem))
+
 
 # in java
 class Solution {
