@@ -17,7 +17,7 @@ class Solution {
         long res = 0;
         int n = x;
         if (n < 0){
-            n = -n; // if n=-2 then it becomes -(-2) --> 2 (+ive)
+            n = -n; // if n = -2 then it becomes -(-2) --> 2 (+ive)
         }
         while(n > 0){
             int r = n%10;
